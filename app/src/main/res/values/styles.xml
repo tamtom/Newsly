@@ -1,0 +1,77 @@
+<resources>
+
+
+    <style name="AppTheme.Launcher">
+        <item name="android:windowBackground">@drawable/ic_launcher_background</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">?themeTopBarBackgroundColor</item>
+        <item name="titleTextColor">?themeTopBarTitleTextColor</item>
+    </style>
+
+    <style name="AppTheme.Text">
+    </style>
+
+    <style name="AppTheme.Text.Title">
+        <item name="android:textSize">@dimen/activity_title_text_size</item>
+        <item name="android:textColor">?themeTopBarTitleTextColor</item>
+    </style>
+
+    <style name="AppTheme.TopTabLayout">
+        <item name="tabMode">auto</item>
+        <item name="iconTint">?themeTopBarIconTintColor</item>
+        <item name="android:backgroundTint">?themeTopBarBackgroundColor</item>
+    </style>
+
+    <style name="AppTheme.Article" />
+
+    <style name="AppTheme.Article.Divider">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?themeArticleDividerColor</item>
+    </style>
+
+    <style name="AppTheme.Article.Text" parent="AppTheme.Text" />
+
+    <style name="AppTheme.Article.Text.Title">
+        <item name="android:textSize">@dimen/article_title_text_size</item>
+        <item name="android:textColor">?themeArticleTitleTextColor</item>
+    </style>
+
+    <style name="AppTheme.Article.Text.Title.Details">
+        <item name="android:textSize">@dimen/article_title_text_size_detail</item>
+    </style>
+
+    <style name="AppTheme.Article.Text.Author">
+        <item name="android:textSize">@dimen/article_author_text_size</item>
+        <item name="android:textColor">?themeArticleAuthorTextColor</item>
+    </style>
+
+    <style name="AppTheme.Article.Text.Details">
+        <item name="android:textSize">@dimen/article_details_text_size</item>
+        <item name="android:textColor">?themeArticleDetailsTextColor</item>
+    </style>
+
+    <style name="AppTheme.Article.Text.Badge">
+        <item name="android:textSize">@dimen/article_badge_text_size</item>
+        <item name="android:textColor">?themeArticleBadgeTextColor</item>
+        <item name="android:textAppearance">@style/AppTheme.Article.Text.Badge</item>
+    </style>
+
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/purple</item>
+    </style>
+
+
+</resources>

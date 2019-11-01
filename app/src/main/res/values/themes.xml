@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+
+        <item name="colorPrimary">?themePrimaryColor</item>
+        <item name="colorPrimaryDark">?themePrimaryDarkColor</item>
+        <item name="colorAccent">?themeAccentColor</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <item name="themeAllArticlesAccentColor">@color/purple</item>
+        <item name="themeAllArticlesAccentColor20">@color/purple20</item>
+
+
+        </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Light">
+        <item name="themePrimaryColor">@color/white</item>
+        <item name="themePrimaryDarkColor">@color/white_dark</item>
+        <item name="themeAccentColor">@color/purple</item>
+
+        <item name="themeAppBackgroundColor">@color/white_dark</item>
+        <item name="themeAppNavBarBackgroundColor">@color/white_dark</item>
+
+        <item name="themeTopBarTitleTextColor">@color/black87</item>
+        <item name="themeTopBarBackgroundColor">@color/white</item>
+        <item name="themeTopBarIconTintColor">@color/black60</item>
+
+        <item name="themeArticleTitleTextColor">@color/black87</item>
+        <item name="themeArticleDividerColor">@color/black12</item>
+        <item name="themeArticleAuthorTextColor">@color/black87</item>
+        <item name="themeArticleBadgeTextColor">@color/white</item>
+        <item name="themeArticleBadgeBackgroundColor">@color/gray_dark</item>
+        <item name="themeArticleDetailsTextColor">@color/black60</item>
+        <item name="themeArticleCardBackgroundColor">@color/white</item>
+        <item name="themeArticleShadowColor">@color/black07</item>
+
+    </style>
+</resources>

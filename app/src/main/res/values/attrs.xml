@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="themePrimaryColor" format="reference" />
+    <attr name="themePrimaryDarkColor" format="reference" />
+    <attr name="themeAccentColor" format="reference" />
+
+    <attr name="themeAppBackgroundColor" format="reference" />
+    <attr name="themeAppNavBarBackgroundColor" format="reference" />
+
+    <attr name="themeAllArticlesAccentColor" format="reference" />
+    <attr name="themeAllArticlesAccentColor20" format="reference" />
+
+    <attr name="themeTopBarTitleTextColor" format="reference" />
+    <attr name="themeTopBarBackgroundColor" format="reference" />
+    <attr name="themeTopBarIconTintColor" format="reference" />
+
+    <attr name="themeArticleTitleTextColor" format="reference" />
+    <attr name="themeArticleDividerColor" format="reference" />
+    <attr name="themeArticleAuthorTextColor" format="reference" />
+    <attr name="themeArticleBadgeTextColor" format="reference" />
+    <attr name="themeArticleBadgeBackgroundColor" format="reference" />
+    <attr name="themeArticleDetailsTextColor" format="reference" />
+    <attr name="themeArticleCardBackgroundColor" format="reference" />
+    <attr name="themeArticleShadowColor" format="reference" />
+
+</resources>

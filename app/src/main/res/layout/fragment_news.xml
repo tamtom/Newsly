@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraintLayout_newsly_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarlayout_newsly"
+        style="@style/AppTheme.Toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?themeTopBarBackgroundColor"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+
+                    app:layout_scrollFlags="scroll|enterAlways"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+
+
+                        android:id="@+id/textview_newsly_title"
+
+                        style="@style/AppTheme.Text.Title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/activity_title_margin"
+                        android:text="@string/app_name"/>
+                    <View
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"/>
+                    <ImageView
+                        android:layout_margin="@dimen/activity_title_margin"
+                         android:id="@+id/iv_settings"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_settings_black_24dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tablayout_newsly_tabs"
+                style="@style/AppTheme.TopTabLayout"
+                android:layout_width="wrap_content"
+                app:layout_collapseMode="pin"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:tabMode="auto" />
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager_newsly"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appbarlayout_newsly" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
