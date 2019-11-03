@@ -34,6 +34,20 @@ Newsly attempts to make use of the latest Android libraries and best practices:
 * Designed and built using Material Design [tools](https://material.io/tools/) and [components](https://material.io/develop/android/)
 * Fully Testable using [mockito](https://github.com/nhaarman/mockito-kotlin) 
 
+## MVP Architecture 
+
+The following diagram shows the Architecture  of the app.
+
+<img alt="News App Dependency Graph" height="450px" src="art/mvp.png" />
+
+
+## Dependency Graph 
+
+The following diagram shows the dependency graph of the app.
+
+<img alt="News App Dependency Graph"  src="art/digraph.png" />
+
+
 
 ## License
 
